@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AIRLeague | All-India JEE Mains Open Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Compete with 50,000+ JEE aspirants from every city and coaching across India. AIRLeague All-India JEE Mains Open Test is designed by a committee of IIT Delhi professors, alumni and PhD scholars." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          },
+          colors: {
+            primary: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              900: '#1e3a8a'
+            },
+            accent: {
+              500: '#f97316'
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .bg-grid {
+      background-image: radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.32) 1px, transparent 0);
+      background-size: 22px 22px;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-50">
+  <div class="relative min-h-screen overflow-hidden">
+    <div class="pointer-events-none absolute inset-0 opacity-70">
+      <div class="h-full w-full bg-gradient-to-br from-primary-900 via-slate-950 to-slate-900"></div>
+      <div class="bg-grid absolute inset-0 mix-blend-soft-light"></div>
+      <div class="absolute -top-32 -right-32 h-72 w-72 rounded-full bg-primary-600/40 blur-3xl"></div>
+      <div class="absolute top-64 -left-24 h-80 w-80 rounded-full bg-accent-500/40 blur-3xl"></div>
+    </div>
+
+    <header class="relative z-10 border-b border-white/5 bg-slate-950/70 backdrop-blur-xl">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-primary-600/90 ring-2 ring-primary-300/60">
+            <span class="text-xs font-semibold tracking-widest text-white">AIR</span>
+          </div>
+          <div class="space-y-0.5">
+            <div class="flex items-center gap-2">
+              <span class="text-lg font-semibold tracking-tight">AIRLeague</span>
+              <span class="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider text-emerald-300 ring-1 ring-emerald-500/30">New</span>
+            </div>
+            <p class="text-xs text-slate-300/80">All-India JEE Rank Benchmark</p>
+          </div>
+        </div>
+
+        <div class="hidden items-center gap-4 text-[11px] font-medium text-slate-200/80 md:flex">
+          <span>Question paper by IIT Delhi profs, alumni &amp; PhD scholars</span>
+        </div>
+
+        <a href="#register" class="inline-flex items-center rounded-full border border-primary-300/40 bg-primary-600 px-4 py-2 text-xs font-semibold tracking-wide text-white shadow-lg shadow-primary-600/40 hover:bg-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
+          Register Now
+        </a>
+      </div>
+    </header>
+
+    <main class="relative z-10">
+      <section class="mx-auto flex max-w-6xl flex-col gap-10 px-4 pb-16 pt-10 sm:px-6 lg:flex-row lg:items-center lg:gap-16 lg:pb-24 lg:pt-16">
+        <div class="w-full space-y-6 lg:w-1/2">
+          <div class="inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-amber-500/10 px-3 py-1 text-[11px] font-medium text-amber-100/90 shadow-sm shadow-amber-500/40">
+            <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+            <span>All-India JEE Mains Open Test</span>
+            <span class="mx-1 h-3 w-px bg-amber-300/40"></span>
+            <span>Target: 50,000+ serious aspirants</span>
+          </div>
+
+          <h1 class="text-3xl font-extrabold tracking-tight text-slate-50 sm:text-4xl lg:text-5xl">
+            Compete for your
+            <span class="bg-gradient-to-r from-primary-200 via-emerald-200 to-amber-200 bg-clip-text text-transparent">
+              true All India Rank
+            </span>
+            in JEE Mains.
+          </h1>
+
+          <p class="max-w-xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
+            AIRLeague brings <span class="font-semibold text-slate-50">students from every coaching, city and batch onto one national leaderboard</span>.
+            Built especially for local coaching students who want an honest All-India benchmark before the real exam.
+          </p>
+
+          <div class="grid gap-4 text-xs sm:grid-cols-3 sm:text-sm">
+            <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-4 shadow shadow-slate-950/60 backdrop-blur">
+              <p class="text-[11px] font-medium uppercase tracking-wider text-slate-400">Scale</p>
+              <p class="mt-1 text-lg font-semibold text-slate-50">50,000+ students</p>
+              <p class="mt-1 text-xs text-slate-300/80">Compete beyond your coaching and city. See where you truly stand.</p>
+            </div>
+            <div class="rounded-2xl border border-emerald-400/30 bg-emerald-500/5 p-4 shadow shadow-emerald-900/60 backdrop-blur">
+              <p class="text-[11px] font-medium uppercase tracking-wider text-emerald-200/90">Paper quality</p>
+              <p class="mt-1 text-lg font-semibold text-emerald-100">IIT Delhi driven</p>
+              <p class="mt-1 text-xs text-emerald-50/80">Committee of IIT Delhi profs, IIT Delhi pass-outs &amp; PhD scholars.</p>
+            </div>
+            <div class="rounded-2xl border border-primary-400/30 bg-primary-600/10 p-4 shadow shadow-primary-900/60 backdrop-blur">
+              <p class="text-[11px] font-medium uppercase tracking-wider text-primary-100/90">Insights</p>
+              <p class="mt-1 text-lg font-semibold text-primary-50">AIR, percentile, topics</p>
+              <p class="mt-1 text-xs text-primary-50/80">Understand chapter-level strength, accuracy and speed.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a href="#register" class="inline-flex items-center justify-center rounded-full bg-primary-600 px-6 py-3 text-sm font-semibold tracking-wide text-white shadow-lg shadow-primary-600/40 hover:bg-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
+              Register your seat
+            </a>
+            <a href="#academic-team" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-slate-900/60 px-5 py-3 text-xs font-semibold tracking-wide text-slate-100 hover:border-white/40 hover:bg-slate-900">
+              Know your paper-setters
+            </a>
+          </div>
+
+          <p class="text-[11px] text-slate-300/80">
+            Ideal for local coaching students, rankers, droppers and serious self-study aspirants aiming for a realistic All-India check.
+          </p>
+        </div>
+
+        <div class="mt-2 w-full lg:mt-0 lg:w-1/2">
+          <div class="mx-auto max-w-md rounded-3xl border border-white/10 bg-slate-900/70 p-4 shadow-2xl shadow-slate-950/80 backdrop-blur-xl">
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-[11px] font-medium uppercase tracking-wider text-slate-400">Your All-India snapshot</p>
+                <p class="mt-1 text-xl font-semibold text-slate-50">AIR 3,482</p>
+                <p class="text-xs text-slate-300/80">Among 50,000+ JEE Main aspirants</p>
+              </div>
+              <div class="rounded-2xl bg-primary-600/10 px-3 py-2 text-right">
+                <p class="text-[11px] uppercase tracking-wider text-primary-100/90">Percentile</p>
+                <p class="text-xl font-semibold text-primary-50">97.4</p>
+              </div>
+            </div>
+
+            <div class="mt-5 grid gap-3 text-xs sm:grid-cols-3">
+              <div class="rounded-2xl bg-slate-800/80 p-3">
+                <p class="text-[10px] uppercase tracking-wider text-slate-400">Physics</p>
+                <p class="mt-1 text-sm font-semibold text-emerald-300">Strong</p>
+                <p class="mt-0.5 text-[11px] text-slate-300/80">Accuracy 89%</p>
+              </div>
+              <div class="rounded-2xl bg-slate-800/80 p-3">
+                <p class="text-[10px] uppercase tracking-wider text-slate-400">Chemistry</p>
+                <p class="mt-1 text-sm font-semibold text-amber-300">Balanced</p>
+                <p class="mt-0.5 text-[11px] text-slate-300/80">Accuracy 78%</p>
+              </div>
+              <div class="rounded-2xl bg-slate-800/80 p-3">
+                <p class="text-[10px] uppercase tracking-wider text-slate-400">Maths</p>
+                <p class="mt-1 text-sm font-semibold text-rose-300">Needs focus</p>
+                <p class="mt-0.5 text-[11px] text-slate-300/80">Accuracy 62%</p>
+              </div>
+            </div>
+
+            <div class="mt-5 rounded-2xl bg-slate-900/80 p-3">
+              <div class="flex items-center justify-between gap-2 text-[11px] text-slate-300/80">
+                <span>Top chapters to revise next:</span>
+                <span class="rounded-full bg-primary-600/10 px-2 py-1 text-[10px] font-medium uppercase tracking-wider text-primary-100">Smart revision list</span>
+              </div>
+              <div class="mt-2 flex flex-wrap gap-2 text-[11px]">
+                <span class="rounded-full bg-slate-800 px-2 py-1 text-slate-100/90">Coordinate Geometry</span>
+                <span class="rounded-full bg-slate-800 px-2 py-1 text-slate-100/90">Electrostatics</span>
+                <span class="rounded-full bg-slate-800 px-2 py-1 text-slate-100/90">Organic Nomenclature</span>
+              </div>
+            </div>
+
+            <div class="mt-4 flex items-center justify-between border-t border-white/5 pt-3 text-[11px] text-slate-300/80">
+              <p>Designed for students from local coachings across India.</p>
+              <p class="text-right text-emerald-300">See your real competition.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="students" class="border-y border-white/5 bg-slate-950/70">
+        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-3 lg:gap-8 lg:py-16">
+          <div class="space-y-3 lg:col-span-1">
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-200/80">For students</p>
+            <h2 class="text-2xl font-bold text-slate-50">Built for every serious JEE aspirant.</h2>
+            <p class="text-sm text-slate-300/80">
+              Whether you study in a small-town coaching, a big brand, or at home, AIRLeague puts your performance on one common All-India scale.
+            </p>
+          </div>
+          <div class="space-y-4 text-sm lg:col-span-2">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Local coaching students</p>
+                <p class="mt-1 text-slate-50">Know where your city rank stands nationally.</p>
+                <p class="mt-1 text-xs text-slate-300/80">
+                  Go beyond internal tests and limited batches. Benchmark with thousands of students across India.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Self-study &amp; dropper</p>
+                <p class="mt-1 text-slate-50">Validate your preparation strategy.</p>
+                <p class="mt-1 text-xs text-slate-300/80">
+                  Get an external, unbiased check of your All-India Rank before JEE Mains.
+                </p>
+              </div>
+            </div>
+            <div class="rounded-2xl border border-emerald-400/30 bg-emerald-500/5 p-4">
+              <p class="text-xs font-semibold uppercase tracking-wider text-emerald-200/90">Detailed performance report</p>
+              <div class="mt-2 grid gap-3 text-xs sm:grid-cols-3">
+                <div>
+                  <p class="font-semibold text-emerald-50">National position</p>
+                  <p class="mt-1 text-emerald-50/80">All India Rank, percentile and score distribution.</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-emerald-50">Subject balance</p>
+                  <p class="mt-1 text-emerald-50/80">Physics, Chemistry, Maths strength vs peers.</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-emerald-50">Topic insights</p>
+                  <p class="mt-1 text-emerald-50/80">Best and weakest chapters to focus on next.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="academic-team" class="bg-slate-950/80">
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+          <div class="grid gap-10 lg:grid-cols-[1.1fr,0.9fr] lg:items-center">
+            <div class="space-y-4">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-200/80">Academic committee</p>
+              <h2 class="text-2xl font-bold text-slate-50 sm:text-3xl">
+                Question paper designed by an IIT Delhidriven committee.
+              </h2>
+              <p class="text-sm text-slate-300/85">
+                AIRLeague is not just another coaching test. The paper is created and reviewed by a focused academic team so that your performance closely reflects your readiness for the real JEE Mains.
+              </p>
+              <div class="grid gap-4 text-sm sm:grid-cols-3">
+                <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">IIT Delhi professors</p>
+                  <p class="mt-1 text-slate-50">Ensure academic depth, rigour and correct difficulty calibration.</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">IIT Delhi pass-outs</p>
+                  <p class="mt-1 text-slate-50">Recent graduates who know the exam pattern from their own journey.</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">PhD scholars</p>
+                  <p class="mt-1 text-slate-50">Advanced problem-setters who craft concept-testing questions.</p>
+                </div>
+              </div>
+              <p class="text-xs text-slate-400/90">
+                The committee works together on chapter-wise weightage, difficulty distribution, and question quality so that your mock performance is a strong predictor of your real exam outcome.
+              </p>
+            </div>
+
+            <div class="rounded-3xl border border-primary-400/20 bg-slate-950/80 p-6 shadow-xl shadow-primary-900/50">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-100/80">Why this matters</p>
+              <h3 class="mt-2 text-lg font-semibold text-slate-50">Your All-India Rank is only as meaningful as the paper behind it.</h3>
+              <ul class="mt-4 space-y-3 text-sm text-slate-300/85">
+                <li class="flex gap-3">
+                  <span class="mt-1 h-1.5 w-1.5 rounded-full bg-primary-400"></span>
+                  <span>Balanced mix of easy, moderate and challenging questions as seen in recent JEE Mains papers.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 h-1.5 w-1.5 rounded-full bg-primary-400"></span>
+                  <span>Strong conceptual questions that punish guesswork and reward clarity.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 h-1.5 w-1.5 rounded-full bg-primary-400"></span>
+                  <span>Careful control of silly-trap questions so that genuine understanding shines through.</span>
+                </li>
+              </ul>
+              <p class="mt-4 text-xs text-slate-400/90">When 50,000+ students take a carefully designed test together, the All-India Rank you see is a powerful feedback signal.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="coaching" class="border-y border-white/5 bg-slate-950/80">
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+          <div class="grid gap-10 lg:grid-cols-[1.1fr,0.9fr] lg:items-center">
+            <div class="space-y-4">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-200/80">For coaching institutes</p>
+              <h2 class="text-2xl font-bold text-slate-50 sm:text-3xl">Give your students a national stage while keeping your local identity.</h2>
+              <p class="text-sm text-slate-300/85">
+                AIRLeague is a neutral All-India layer that sits on top of your existing test series. Your students keep studying with you, and you get an honest measure of how your batches perform nationally.
+              </p>
+              <div class="grid gap-4 text-sm sm:grid-cols-2">
+                <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">For tier-2 / tier-3 cities</p>
+                  <p class="mt-1 text-slate-50">Show parents and students a clear All-India benchmark without sending them away to bigger cities.</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Transparent marketing</p>
+                  <p class="mt-1 text-slate-50">Use real All-India results and distributions in your brochures and sessions.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-emerald-400/25 bg-emerald-500/5 p-6 shadow-xl shadow-emerald-900/50">
+              <h3 class="text-lg font-semibold text-emerald-50">What your institute receives</h3>
+              <ul class="mt-4 space-y-3 text-sm text-emerald-50/90">
+                <li class="flex gap-3">
+                  <span class="mt-1 h-1.5 w-1.5 rounded-full bg-emerald-300"></span>
+                  <span>Batch-wise performance snapshots vs national average.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 h-1.5 w-1.5 rounded-full bg-emerald-300"></span>
+                  <span>Top performers list to recognise and mentor further.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 h-1.5 w-1.5 rounded-full bg-emerald-300"></span>
+                  <span>Subject-wise gaps where your teaching can be sharpened.</span>
+                </li>
+              </ul>
+              <p class="mt-4 text-xs text-emerald-100/85">
+                If you run a local coaching and want your students to participate, you can onboard your institute as a partner and get consolidated insights.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="bg-slate-950/90">
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+          <div class="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+            <div class="max-w-md space-y-3">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-200/80">How it works</p>
+              <h2 class="text-2xl font-bold text-slate-50 sm:text-3xl">Simple path from registration to results.</h2>
+              <p class="text-sm text-slate-300/85">
+                AIRLeague is designed to fit smoothly into your preparation. One focused test, one clear snapshot of where you truly stand across India.
+              </p>
+            </div>
+            <div class="grid max-w-2xl gap-4 text-sm sm:grid-cols-3">
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Step 1</p>
+                <p class="mt-1 text-slate-50">Register for AIRLeague</p>
+                <p class="mt-1 text-xs text-slate-300/85">
+                  Secure your seat using the registration link. Share your basic academic details so we can generate accurate analytics.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Step 2</p>
+                <p class="mt-1 text-slate-50">Take the All-India test</p>
+                <p class="mt-1 text-xs text-slate-300/85">
+                  Attempt a carefully curated JEE Mainspattern paper under realistic exam conditions.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Step 3</p>
+                <p class="mt-1 text-slate-50">Get your detailed report</p>
+                <p class="mt-1 text-xs text-slate-300/85">
+                  Receive your All-India Rank, percentile and topic-wise analysis to guide your remaining preparation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="border-y border-white/5 bg-slate-950/80">
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+          <div class="grid gap-10 lg:grid-cols-[1.1fr,0.9fr]">
+            <div class="space-y-3">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-200/80">FAQ</p>
+              <h2 class="text-2xl font-bold text-slate-50 sm:text-3xl">Questions students usually ask.</h2>
+              <p class="text-sm text-slate-300/85">
+                Exact dates, mode of exam and fee structure depend on the current cycle. You can update those details here as soon as they are finalised.
+              </p>
+            </div>
+            <div class="space-y-4 text-sm">
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Who should take AIRLeague?</p>
+                <p class="mt-1 text-slate-50">
+                  Any JEE Mains aspirant who wants to see their standing at an All-India level, especially those in local coachings or self-study setups.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Is this only for big-city students?</p>
+                <p class="mt-1 text-slate-50">
+                  No. AIRLeague is designed so that students from smaller towns and local institutes can compete on the same leaderboard as students from major coaching hubs.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Can institutes register their whole batch?</p>
+                <p class="mt-1 text-slate-50">
+                  Yes. Local coachings can onboard as partners so that all of their students participate and receive consolidated analytics.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">How will I get my results?</p>
+                <p class="mt-1 text-slate-50">
+                  After the test window closes and responses are evaluated, your detailed report and All-India Rank will be shared through the chosen communication channel for that cycle.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="register" class="bg-slate-950/95">
+        <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+          <div class="rounded-3xl border border-primary-400/30 bg-gradient-to-br from-primary-950 via-slate-950 to-slate-950 p-6 shadow-2xl shadow-primary-900/60 sm:p-8">
+            <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+              <div class="space-y-2">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary-100/80">Get notified</p>
+                <h2 class="text-2xl font-bold text-slate-50">Be among the first 50,000 to take AIRLeague.</h2>
+                <p class="text-sm text-primary-50/80">
+                  Connect your registration form or onboarding link to this button and start inviting students from your coaching, school or city.
+                </p>
+              </div>
+              <div class="shrink-0">
+                <a href="https://example.com/register" class="inline-flex items-center justify-center rounded-full bg-primary-600 px-6 py-3 text-sm font-semibold tracking-wide text-white shadow-lg shadow-primary-600/50 hover:bg-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-200 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
+                  Go to registration form
+                </a>
+                <p class="mt-2 text-[11px] text-primary-100/80">
+                  Replace this link with your actual form or website URL.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="relative z-10 border-t border-white/10 bg-slate-950/95">
+      <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-[11px] text-slate-400 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+        <p>&copy; <span id="year"></span> AIRLeague. All rights reserved.</p>
+        <p>Brand dedicated to transparent All-India benchmarking for JEE Mains aspirants and local coaching students.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear().toString();
+    }
+  </script>
+</body>
+</html>
