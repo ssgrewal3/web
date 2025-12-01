@@ -79,14 +79,14 @@
     <main class="relative z-10">
       <section class="mx-auto flex max-w-6xl flex-col gap-10 px-4 pb-16 pt-10 sm:px-6 lg:flex-row lg:items-center lg:gap-16 lg:pb-24 lg:pt-16">
         <div class="w-full space-y-6 lg:w-1/2">
-          <div class="inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-amber-500/10 px-3 py-1 text-[11px] font-medium text-amber-100/90 shadow-sm shadow-amber-500/40">
-            <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
-            <span>All-India JEE Mains Open Test</span>
-            <span class="mx-1 h-3 w-px bg-amber-300/40"></span>
-            <span>Target: 50,000+ serious aspirants</span>
-          </div>
+            <div class="flex items-center justify-center gap-2 mb-8">
+              <span class="inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-300 backdrop-blur-sm">
+                <span class="mr-2 h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                Live: All India Mock Test  Last Week of December
+              </span>
+            </div>
 
-          <h1 class="text-3xl font-extrabold tracking-tight text-slate-50 sm:text-4xl lg:text-5xl">
+            <h1 class="text-3xl font-extrabold tracking-tight text-slate-50 sm:text-4xl lg:text-5xl">
             Don't let the JEE Mains be your <span class="text-primary-200">first national reality check.</span>
           </h1>
 
@@ -115,7 +115,7 @@
 
           <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
             <a href="#register" class="inline-flex items-center justify-center rounded-full bg-primary-600 px-6 py-3 text-sm font-semibold tracking-wide text-white shadow-lg shadow-primary-600/40 hover:bg-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
-              Register as Student (₹99)
+              Register as Student (₹149)
             </a>
             <a href="#coaching" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-slate-900/60 px-6 py-3 text-sm font-semibold tracking-wide text-slate-100 hover:border-white/40 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
               Partner with Us (Institutes)
@@ -241,46 +241,71 @@
               </p>
             </div>
 
-            <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                <!-- Profile 1 -->
-                <div class="group relative rounded-3xl border border-white/10 bg-slate-900/60 p-6 transition hover:bg-slate-900">
-                    <div class="flex items-center gap-4">
-                        <div class="h-12 w-12 rounded-full bg-slate-800 flex items-center justify-center text-lg font-bold text-slate-600">?</div>
+            <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Profile 1: Dr. Raman Singh Lamba -->
+                <div class="group relative rounded-3xl border border-white/10 bg-slate-900/60 p-4 transition hover:bg-slate-900">
+                    <div class="flex flex-col items-center gap-3 text-center">
+                        <div class="h-20 w-20 rounded-full bg-slate-800 overflow-hidden ring-2 ring-white/10">
+                            <img src="assets/raman.jpg" alt="Dr. Raman Singh Lamba" class="h-full w-full object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Raman+Lamba&background=0D8ABC&color=fff'"/>
+                        </div>
                         <div>
-                            <p class="font-semibold text-slate-50">Prof. [Name]</p>
-                            <p class="text-xs text-primary-200">IIT Delhi Faculty</p>
+                            <p class="font-semibold text-slate-50 text-sm">Dr. Raman Singh Lamba</p>
+                            <p class="text-[11px] text-primary-200">PhD Chemistry, IIT Delhi</p>
                         </div>
                     </div>
-                    <p class="mt-4 text-xs text-slate-400 leading-relaxed">
-                        "Ensuring the difficulty curve matches the actual JEE Mains trend of the last 3 years."
+                    <p class="mt-3 text-[11px] text-slate-400 leading-relaxed text-center">
+                        Specialist in Inorganic Chemistry and NCERT-based conceptual traps.
                     </p>
                 </div>
 
-                <!-- Profile 2 -->
-                <div class="group relative rounded-3xl border border-white/10 bg-slate-900/60 p-6 transition hover:bg-slate-900">
-                    <div class="flex items-center gap-4">
-                        <div class="h-12 w-12 rounded-full bg-slate-800 flex items-center justify-center text-lg font-bold text-slate-600">?</div>
+                <!-- Profile 2: Dr. Aditya Tripathi -->
+                <div class="group relative rounded-3xl border border-white/10 bg-slate-900/60 p-4 transition hover:bg-slate-900">
+                    <div class="flex flex-col items-center gap-3 text-center">
+                        <div class="h-20 w-20 rounded-full bg-slate-800 overflow-hidden ring-2 ring-white/10">
+                             <img src="assets/aditya.jpg" alt="Dr. Aditya Tripathi" class="h-full w-full object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Aditya+Tripathi&background=0D8ABC&color=fff'"/>
+                        </div>
                         <div>
-                            <p class="font-semibold text-slate-50">[Name], PhD</p>
-                            <p class="text-xs text-primary-200">Research Scholar, IITD</p>
+                            <p class="font-semibold text-slate-50 text-sm">Dr. Aditya Tripathi</p>
+                            <p class="text-[11px] text-primary-200">B.Tech IIT Delhi, PhD ANU</p>
+                            <p class="text-[10px] text-slate-500">Professor</p>
                         </div>
                     </div>
-                    <p class="mt-4 text-xs text-slate-400 leading-relaxed">
-                        "Focusing on concept-linking questions that separate the top 1% from the rest."
+                    <p class="mt-3 text-[11px] text-slate-400 leading-relaxed text-center">
+                        Expert in Physics mechanics and advanced problem design.
                     </p>
                 </div>
 
-                <!-- Profile 3 -->
-                <div class="group relative rounded-3xl border border-white/10 bg-slate-900/60 p-6 transition hover:bg-slate-900">
-                    <div class="flex items-center gap-4">
-                        <div class="h-12 w-12 rounded-full bg-slate-800 flex items-center justify-center text-lg font-bold text-slate-600">?</div>
+                <!-- Profile 3: Siddharth Singh -->
+                <div class="group relative rounded-3xl border border-white/10 bg-slate-900/60 p-4 transition hover:bg-slate-900">
+                    <div class="flex flex-col items-center gap-3 text-center">
+                        <div class="h-20 w-20 rounded-full bg-slate-800 overflow-hidden ring-2 ring-white/10">
+                             <img src="assets/siddharth.jpg" alt="Siddharth Singh" class="h-full w-full object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Siddharth+Singh&background=0D8ABC&color=fff'"/>
+                        </div>
                         <div>
-                            <p class="font-semibold text-slate-50">[Name], B.Tech</p>
-                            <p class="text-xs text-primary-200">IIT Delhi Alumnus</p>
+                            <p class="font-semibold text-slate-50 text-sm">Siddharth Singh</p>
+                            <p class="text-[11px] text-primary-200">B.Tech + M.Tech, IIT Delhi</p>
+                            <a href="tel:+918118822996" class="mt-1 block text-[10px] text-emerald-400 hover:underline">8118822996</a>
                         </div>
                     </div>
-                    <p class="mt-4 text-xs text-slate-400 leading-relaxed">
-                        "Designing options that trap guesswork. Only clarity wins here."
+                    <p class="mt-3 text-[11px] text-slate-400 leading-relaxed text-center">
+                        Mathematics strategist focusing on speed and accuracy.
+                    </p>
+                </div>
+
+                <!-- Profile 4: Basant Dudi -->
+                <div class="group relative rounded-3xl border border-white/10 bg-slate-900/60 p-4 transition hover:bg-slate-900">
+                    <div class="flex flex-col items-center gap-3 text-center">
+                        <div class="h-20 w-20 rounded-full bg-slate-800 overflow-hidden ring-2 ring-white/10">
+                             <img src="assets/basant.jpg" alt="Basant Dudi" class="h-full w-full object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Basant+Dudi&background=0D8ABC&color=fff'"/>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-slate-50 text-sm">Basant Dudi</p>
+                            <p class="text-[11px] text-primary-200">B.Tech, IIT Delhi</p>
+                            <a href="tel:+918826056166" class="mt-1 block text-[10px] text-emerald-400 hover:underline">8826056166</a>
+                        </div>
+                    </div>
+                    <p class="mt-3 text-[11px] text-slate-400 leading-relaxed text-center">
+                        Physics mentor ensuring balanced paper difficulty.
                     </p>
                 </div>
             </div>
@@ -339,7 +364,7 @@
               </div>
               <div class="mt-8 rounded-xl bg-slate-800/50 p-4 text-center">
                  <p class="text-xs text-slate-400">Bulk Registration Fee</p>
-                 <p class="text-2xl font-bold text-white">₹49 <span class="text-sm font-normal text-slate-500">/ student</span></p>
+                 <p class="text-2xl font-bold text-white">₹99 <span class="text-sm font-normal text-slate-500">/ student</span></p>
                  <p class="text-[10px] text-slate-500">Minimum 50 students</p>
               </div>
             </div>
@@ -465,3 +490,4 @@
   </script>
 </body>
 </html>
+
